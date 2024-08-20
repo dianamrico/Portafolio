@@ -1,0 +1,117 @@
+*{
+    background-color: #0D0C0C;
+    
+}
+body
+{
+    font-family:'Merienda', cursive;
+    font-size: 100%;
+}
+
+.esquina-s{
+    width: 11%;
+    height: 8%;
+    background-color: #0D0C0C;
+    position: absolute;
+    top: 4%;
+    left: 2%;
+    border-left: 2px solid white;
+    border-top: 2px solid white;
+}
+
+.esquina-i{
+    width: 11%;
+    height: 8%;
+    background-color: #0D0C0C;
+    position: absolute;
+    bottom: 4%;
+    right: 2%;
+    border-right: 2px solid #f3f3f5;
+    border-bottom: 2px solid #f3f3f5;
+}
+
+.Botones{
+    display: flex;
+    margin-top: 11%;
+    justify-content: center;
+}
+
+.Boton{
+    border-radius: 30px;
+    border-color: #f3f3f5;
+    width: 130%;
+    height:120%;
+
+}
+
+a{
+    text-decoration: none;
+    color: #f3f3f5;
+    text-align: center;
+    font-family:'Merienda', cursive;
+}
+
+
+.Boton:hover
+{
+    border: 2px solid #88EC78;
+    
+}
+
+a:hover{
+
+    color: #88EC78;
+
+}
+
+.btn-1
+{
+    display: inline-block;
+    margin-right: 6%;
+    justify-content: center;
+}
+
+
+.btn-2
+{
+    display: inline-block;
+    margin-left: 6%;
+    justify-content: center;
+}
+
+
+
+
+.Posicion{
+    margin-top: 20%;
+    margin-left: 30%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+@media(max-width: 768px){
+
+    body{
+        font-size: 55%;
+    }
+
+    .imagen1{
+        width: 100%;
+    }
+
+    .Posicion{
+        margin-right: 15%;
+        margin-top: 25%;
+        
+    }
+
+    .Botones{
+        margin-top: 35%;
+    }
+
+
+
+}
+

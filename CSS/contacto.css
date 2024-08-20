@@ -1,0 +1,238 @@
+* {
+    background-color: #0d0c0c;
+    color: white;
+}
+
+body {
+    font-family: "Merienda", cursive;
+    font-size: 100%;
+}
+
+
+.esquina-s {
+    width: 11%;
+    height: 8%;
+    background-color: #0d0c0c;
+    position: absolute;
+    top: 4%;
+    left: 2%;
+    border-left: 2px solid #f3f3f5;
+    border-top: 2px solid #f3f3f5;
+}
+
+.esquina-i {
+    width: 11%;
+    height: 8%;
+    background-color: #0d0c0c;
+    position: absolute;
+    bottom: 4%;
+    right: 2%;
+    border-right: 2px solid #f3f3f5;
+    border-bottom: 2px solid #f3f3f5;
+}
+
+.contenedor-redes{
+    margin: auto;
+    margin-top: 14%;
+    margin-left: 15%;
+}
+
+.titulo-1{
+    margin-left: 20%;
+    font-size: 110%;
+}
+
+.img-1{
+    margin-right: 13%;
+}
+
+.img-3{
+    margin-left: 13%;
+}
+
+.img-4{
+    margin-left: 15%;
+    margin-top: 10%;
+    
+}
+
+.img-5{
+    margin-left: 15%;
+
+}
+
+.Formulario-contacto{
+    margin: auto;
+    margin-top: 5%;
+}
+
+.titulo-2{
+    text-align: center;
+    font-size: 130%;
+}
+
+
+fieldset{
+    border-color: transparent; 
+    
+}
+
+.datos{
+    font-family: "Merienda", cursive;
+    border: solid 1.5px;
+    border-color: #F58014;
+    border-radius: 10% 0% 10% 0%;
+    opacity: 85%;
+}
+
+.msm-box{
+    border: solid 1.5px;
+    border-color: #F58014;
+    opacity: 85%;
+}
+
+.ckeck-t{
+    border: solid 1px;
+    border-color: #F58014;
+    
+}
+
+.ti{
+    
+    color: #88ec78;
+    opacity: 75%;
+    
+}
+
+.ti:hover{
+    color: #F58014;
+    
+}
+
+
+.btonf{
+    
+    font-family: "Merienda", cursive;
+    border-radius: 15%;
+    color:  #88ec78;
+    opacity: 90%;
+
+}
+
+.btonf:hover{
+    border: solid2px #0d0c0c;
+    color: #F58014;
+
+}
+
+
+.Botones {
+    display: flex;
+    margin-top: 6%;
+    justify-content: center;
+}
+
+.Boton1 {
+    border-radius: 30px;
+    border-color: #f3f3f5;
+    width: 160%;
+    height: 120%;
+}
+
+.Boton2 {
+    border-radius: 30px;
+    border-color: #f3f3f5;
+    width: 130%;
+    height: 120%;
+}
+
+.Boton3 {
+
+    border-radius: 30px;
+    width: 130%;
+    height: 120%;
+    border-color: #88ec78;
+    
+}
+
+
+.link3 {
+    text-decoration: none;
+    color: #88ec78;
+    text-align: center;
+    font-family: "Merienda", cursive;
+}
+
+a {
+    text-decoration: none;
+    color: #f3f3f5;
+    font-family: "Merienda", cursive;
+}
+
+.Boton1:hover {
+    border: 2px solid #88ec78;
+}
+
+.Boton2:hover {
+    border: 2px solid #88ec78;
+}
+
+.Boton3:hover {
+    border: 2px solid #88ec78;
+}
+
+.Boton3:hover {
+    border: 2px solid orange;
+}
+
+.link3:hover {
+    color: orange;
+}
+
+a:hover {
+    color: #88ec78;
+}
+
+.btn-1 {
+    display: inline-block;
+    margin-right: 7%;
+    justify-content: center;
+}
+
+.btn-2 {
+    display: inline-block;
+    margin: 0%;
+    justify-content: center;
+}
+
+.btn-3 {
+    display: inline-block;
+    margin-left: 7%;
+    justify-content: center;
+}
+
+
+
+@media (max-width: 768px) {
+    body {
+        font-size: 55%;
+    }
+
+    .Botones {
+        margin-top: 15%;
+    }
+
+}
+
+@media(min-width: 400px){
+
+    .contenedor-general{
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+}
+
+
+
+
